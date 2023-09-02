@@ -10,8 +10,9 @@ body {
 }
 
 .login-signup-card {
+  width: fit-content;
   background-color: white;
-  margin-top: 100px;
+  margin: 100px auto;
   padding: 15px;
 }
 
@@ -19,4 +20,13 @@ body {
   -moz-box-shadow: 0 0 5px 5px #808080;
   -webkit-box-shadow: 0 0 5px 5px #808080;
   box-shadow: 0 0 5px 5px #808080;
+}
+
+.login-signup-heading {
+  padding: 10px;
+}
+
+.login-signup-h1 {
+  color: #03045e;
+  text-align: center;
 }
