@@ -9,26 +9,28 @@ body {
   background: #f5f5f5;
 }
 
-/*Login SignUp*/
-.login-signup-card {
-  width: fit-content;
-  background-color: white;
-  margin: 100px auto;
-}
-
 .card-shadow {
   -moz-box-shadow: 0 0 5px 5px #808080;
   -webkit-box-shadow: 0 0 5px 5px #808080;
   box-shadow: 0 0 5px 5px #808080;
 }
 
+/*Login SignUp*/
+.login-signup-card {
+  width: fit-content;
+  background-color: white;
+  margin: 100px auto;
+  border-radius: 4px;
+}
+
 .login-signup-heading {
-  padding: 10px;
+  padding: 10px 0px;
 }
 
 .login-signup-h1 {
   color: #03045e;
   text-align: center;
+  font-size: 30px;
 }
 
 .login-signup-tabs {
@@ -47,6 +49,7 @@ body {
   color: #ffffff;
   text-decoration: none;
   transition: all 0.5s;
+  border-radius: 4px 4px 0 0;
 }
 
 .login-signup-tabs a:hover {
@@ -55,7 +58,45 @@ body {
   color: #ffffff;
 }
 
+.login-signup-tab-active {
+  text-decoration: none;
+  background-color: #03045e;
+  color: #ffffff;
+}
+
+.login-signup-inputs {
+  padding: 0px 5px 5px 5px;
+}
+
+.login-signup-input {
+  padding: 5px;
+  margin: 5px;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login-signup-submit {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.login-signup-submit input[type="submit"]:hover {
+  text-decoration: none;
+  background-color: #03045e;
+  color: #ffffff;
+}
+
 /*Font sizes*/
 .font-size-16 {
   font-size: 16px;
+}
+
+.font-size-14 {
+  font-size: 14px;
 }
