@@ -41,6 +41,10 @@ body {
   flex: 1;
 }
 
+.login-signup-tab-border {
+  border-radius: 4px 4px 0 0;
+}
+
 .login-signup-button {
   text-align: center;
   padding: 10px;
@@ -49,7 +53,6 @@ body {
   color: #ffffff;
   text-decoration: none;
   transition: all 0.5s;
-  border-radius: 4px 4px 0 0;
 }
 
 .login-signup-tabs a:hover {
@@ -84,6 +87,10 @@ body {
   justify-content: center;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.login-signup-submit-border {
+  border-radius: 4px;
 }
 
 .login-signup-submit input[type="submit"]:hover {
