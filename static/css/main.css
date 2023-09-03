@@ -8,3 +8,27 @@ body {
   margin: 0px;
   background: #f5f5f5;
 }
+
+/*Login SignUp*/
+.signup-card {
+  width: fit-content;
+  background-color: white;
+  margin: 100px auto;
+  border-radius: 4px;
+}
+
+.signup-card-shadow {
+  -moz-box-shadow: 0 0 5px 5px #808080;
+  -webkit-box-shadow: 0 0 5px 5px #808080;
+  box-shadow: 0 0 5px 5px #808080;
+}
+
+.signup-heading {
+  padding: 10px 0px;
+}
+
+.signup-h1 {
+  color: #03045e;
+  text-align: center;
+  font-size: 30px;
+}
