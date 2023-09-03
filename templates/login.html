@@ -11,11 +11,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Budget Buddy | Login</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../templates/static/css/main.css"
+    />
     <link
       rel="stylesheet"
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
+  <body>
+    <div class="login-signup-card card-shadow">
+      <div class="login-signup-tabs">
+        <a
+          href="#"
+          class="login-signup-tab login-signup-button font-size-16 login-signup-tab-active"
+          >Login</a
+        >
+        <a
+          href="../templates/signup.html"
+          class="login-signup-tab login-signup-button font-size-16"
+          >Sign Up</a
+        >
+      </div>
+      <div class="login-signup-heading">
+        <h1 class="login-signup-h1">Budget Buddy</h1>
+      </div>
+      <form action="/login" method="post">
+        <div class="login-signup-inputs">
+          <input
+            type="text"
+            name="username"
+            class="login-signup-input font-size-14"
+            placeholder="Username"
+          /><br />
+          <input
+            type="password"
+            name="password"
+            class="login-signup-input font-size-14"
+            placeholder="Password"
+          />
+        </div>
+        <div class="login-signup-submit">
+          <input
+            type="submit"
+            value="Submit"
+            class="login-signup-tab login-signup-button font-size-14"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
