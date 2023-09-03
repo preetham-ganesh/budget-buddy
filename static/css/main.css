@@ -68,7 +68,7 @@ body {
 }
 
 .signup-inputs-container {
-  padding: 0px 5px 20px 5px;
+  padding: 5px;
 }
 
 .signup-input {
@@ -92,6 +92,7 @@ body {
   border: 0px;
   margin-top: 15px;
   padding: 10px;
+  margin-bottom: 15px;
 }
 
 .signup-input-submit:hover {
