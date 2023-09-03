@@ -10,20 +10,20 @@ body {
 }
 
 /*Login SignUp*/
-.signup-card {
+.signup-container {
   width: fit-content;
   background-color: white;
   margin: 100px auto;
   border-radius: 4px;
 }
 
-.signup-card-shadow {
+.signup-container-shadow {
   -moz-box-shadow: 0 0 5px 5px #808080;
   -webkit-box-shadow: 0 0 5px 5px #808080;
   box-shadow: 0 0 5px 5px #808080;
 }
 
-.signup-heading {
+.signup-heading-container {
   padding: 10px 0px;
 }
 
@@ -31,4 +31,36 @@ body {
   color: #03045e;
   text-align: center;
   font-size: 30px;
+}
+
+.signup-tabs-container {
+  display: flex;
+}
+
+.signup-single-tab {
+  flex: 1;
+}
+
+.signup-tab-border {
+  border-radius: 4px 4px 0 0;
+}
+
+.signup-button {
+  text-align: center;
+  padding: 10px;
+  background-color: #0077b6;
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.signup-tabs a:hover {
+  text-decoration: none;
+  background-color: #03045e;
+}
+
+.signup-tabs-active {
+  text-decoration: none;
+  background-color: #03045e;
 }
