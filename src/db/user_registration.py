@@ -6,20 +6,20 @@ import re
 
 
 # Creates an object for SQAlchemy class.
-db = SQLAlchemy()
+user_db = SQLAlchemy()
 
 
-class User(db.Model):
+class User(user_db.Model):
     """Defines the structure & attributes of user data within a web application.
 
     Defines the structure & attributes of user data within a web application. Represents individual users who interact
         with the application.
     """
 
-    id = db.Column(db.Integer, primary_key=True)
-    email_id = db.Column(db.String(120), unique=True, nullable=False)
-    username = db.Column(db.String(16), unique=True, nullable=False)
-    password = db.Column(db.String(120), nullable=False)
+    id = user_db.Column(user_db.Integer, primary_key=True)
+    email_id = user_db.Column(user_db.String(120), unique=True, nullable=False)
+    username = user_db.Column(user_db.String(16), unique=True, nullable=False)
+    password = user_db.Column(user_db.String(120), nullable=False)
 
 
 def validate_email_id(email_id: str) -> bool:
