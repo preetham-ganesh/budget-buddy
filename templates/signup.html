@@ -39,8 +39,12 @@
       <div class="signup-heading-container">
         <h1 class="signup-h1">Budget Buddy</h1>
       </div>
+      <div class="signup-error-message">
+        {% for mesg in get_flashed_messages() %} {{ mesg }} <br />
+        {% endfor %}
+      </div>
       <div class="signup-inputs-container">
-        <form>
+        <form method="POST">
           <input
             type="text"
             name="email"
