@@ -41,3 +41,24 @@ def validate_email_id(email_id: str) -> bool:
         return True
     else:
         return False
+
+
+def validate_username(username: str) -> bool:
+    """Checks the validity of the username.
+
+    Checks the validity of the username.
+
+    Args:
+        username: A string for the username which needs to be validated.
+
+    Returns:
+        A boolean value for the validity of the username, i.e., true if valid, and false if invalid.
+    """
+    # Checks type of arguments.
+    assert isinstance(username, str), "Argument username should be of type 'str'."
+
+    # Checks if the string text is a valid email.
+    if re.match("^[a-zA-Z0-9]*$", username):
+        return True
+    else:
+        return False
