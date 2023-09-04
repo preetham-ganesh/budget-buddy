@@ -12,10 +12,11 @@
     <title>Budget Buddy | Login</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <link
-      rel="stylesheet"
-      type="text/css"
-      href="../templates/static/css/main.css"
+      rel="icon"
+      type="image/x-icon"
+      href="../static/img/money-bill-solid.svg"
     />
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css" />
     <link
       rel="stylesheet"
       type="text/css"
@@ -23,45 +24,45 @@
     />
   </head>
   <body>
-    <div class="login-signup-card card-shadow">
-      <div class="login-signup-tabs">
+    <div class="signup-container signup-container-shadow">
+      <div class="signup-tabs-container">
         <a
           href="#"
-          class="login-signup-tab login-signup-button font-size-16 login-signup-tab-active login-signup-tab-border"
+          class="signup-single-tab signup-button font-size-16 signup-tab-border signup-tab-active"
           >Login</a
         >
         <a
           href="../templates/signup.html"
-          class="login-signup-tab login-signup-button font-size-16 login-signup-tab-border"
+          class="signup-single-tab signup-button font-size-16 signup-tab-border"
           >Sign Up</a
         >
       </div>
-      <div class="login-signup-heading">
-        <h1 class="login-signup-h1">Budget Buddy</h1>
+      <div class="signup-heading-container">
+        <h1 class="signup-h1">Budget Buddy</h1>
       </div>
-      <form action="/login" method="post">
-        <div class="login-signup-inputs">
+      <div class="signup-inputs-container">
+        <form method="POST">
           <input
             type="text"
             name="username"
-            class="login-signup-input font-size-14"
+            class="signup-input signup-input-text font-size-14"
             placeholder="Username"
+            required
           /><br />
           <input
             type="password"
             name="password"
-            class="login-signup-input font-size-14"
+            class="signup-input signup-input-text font-size-14"
             placeholder="Password"
-          />
-        </div>
-        <div class="login-signup-submit">
+            required
+          /><br />
           <input
             type="submit"
             value="Submit"
-            class="login-signup-tab login-signup-button font-size-14 login-signup-submit-border"
+            class="signup-input signup-input-submit font-size-14"
           />
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   </body>
 </html>
