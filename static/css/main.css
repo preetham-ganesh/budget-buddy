@@ -101,6 +101,19 @@ body {
   color: #ffffff;
 }
 
+.signup-message-container {
+  font-size: 12px;
+  padding: 5px 5px 5px 15px;
+}
+
+.signup-error-color {
+  color: #ff0000;
+}
+
+.signup-success-color {
+  color: #03c04a;
+}
+
 /*Font sizes*/
 .font-size-16 {
   font-size: 16px;
