@@ -28,7 +28,7 @@ def validate_email_id(email_id: str) -> bool:
     Checks the validity of the email_id.
 
     Args:
-        email_id: A string for email_id which needs validation.
+        email_id: A string for email_id which needs to be validated.
 
     Returns:
         A boolean value for the validity of the email_id, i.e., true if valid, and false if invalid.
